@@ -9,24 +9,29 @@ body{
     margin: 100px;
 }
 img{
-    padding-top: 40px;
-    border-radius: 10px;
+   margin: 10px;
+    border-radius: 50%;
 } 
 .row1{
     border: 1px solid black;
+    display: grid;
     justify-content: center;
+
     background-color: hsl(263, 55%, 52%);
     border-radius: 10px;
    
 } 
-.row1 h1{
-   background-color: hsl(263, 55%, 52%);
-    margin-left: 10px;
+.text{
+    display: grid;
+    grid-template-columns: .3fr 1fr;
 }
+
+
 .row2{
     border: 1px solid black;
     justify-content: center;
     border-radius: 10px;
+    display: grid;
     background-color: hsl(218, 12%, 55%)
    
 }
