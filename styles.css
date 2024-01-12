@@ -27,7 +27,7 @@ img{
     border: 1px solid black;
     justify-content: center;
     border-radius: 10px;
-    background-color: hsl(217, 19%, 35%);
+    background-color: hsl(218, 12%, 55%)
    
 }
 .row3{
@@ -47,5 +47,5 @@ img{
     border: 1px solid black;
     justify-content: center;
     border-radius: 10px;
-    background-color: hsl(219, 29%, 14%);
+    background-color:hsl(217, 19%, 35%)
 }
