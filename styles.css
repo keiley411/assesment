@@ -2,7 +2,7 @@ body{
     background-color: aliceblue;
 }
 .edge{
-    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-columns:2fr 0.5fr ;
     display: grid;
     padding-left: 10px;
     gap: 10px;
@@ -12,45 +12,96 @@ img{
    margin: 10px;
     border-radius: 50%;
 } 
+.text{
+    opacity: 50%;
+    font-weight: 500;
+    display: grid;
+
+}
+.text1{
+    opacity: 50%;
+    font-weight: 500;
+}
+.text2{
+    opacity: 50%;
+    font-weight: 500;
+
+}
+.text3{
+    opacity: 50%;
+    font-weight: 500;
+}
+.text4{
+    font-weight: 500;
+    opacity: 50%;
+}
 .row1{
     border: 1px solid black;
     display: grid;
     justify-content: center;
-
     background-color: hsl(263, 55%, 52%);
     border-radius: 10px;
-   
+    font-size: 13px;
+    padding: 20px;
 } 
-.text{
-    display: grid;
-    grid-template-columns: .3fr 1fr;
-}
-
 
 .row2{
     border: 1px solid black;
     justify-content: center;
     border-radius: 10px;
     display: grid;
-    background-color: hsl(218, 12%, 55%)
+    background-color: hsl(216, 2%, 61%)
+    font-size: 13px;
+    padding: 20px;
    
 }
 .row3{
     border: 1px solid black;
     justify-content: center;
     border-radius: 10px;
-    background-color: hsl(0, 0%, 100%);
-   
+    background-color:  hsl(0, 0%, 100%);
+    font-size: 13px;
+    padding: 20px;
+    
 }
 .row4{
     border: 1px solid black;
     justify-content: center;
     border-radius: 10px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 20%, 44%);
+    font-size: 13px;
+    padding: 20px;
 }
 .row5{
     border: 1px solid black;
     justify-content: center;
     border-radius: 10px;
-    background-color:hsl(217, 19%, 35%)
+    background-color:hsl(0, 0%, 100%)
+    font-size: 13px;
+    padding: 20px;
+}
+.box1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1.5rem;
+}
+
+}
+.box2{
+    padding: 20px;
+    column-gap: 10px;
+    
+    
+}
+.sec1{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    column-gap: 1.5rem;
+}
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    column-gap: 1.5rem;
+    padding-bottom: 19px;
+   
 }
